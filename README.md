@@ -28,6 +28,7 @@ Project Structure
 └── data/                          # Dataset directory
     ├── brain_tumor_images.npy     # MRI scan images
     └── brain_tumor_targets.npy    # Target labels
+
 Tasks
 The assignment is divided into three main tasks:
 Task 1: Neural Networks with scikit-learn
