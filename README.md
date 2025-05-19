@@ -28,7 +28,6 @@ Project Structure
 └── data/                          # Dataset directory
     ├── brain_tumor_images.npy     # MRI scan images
     └── brain_tumor_targets.npy    # Target labels
-
 Tasks
 The assignment is divided into three main tasks:
 Task 1: Neural Networks with scikit-learn
@@ -68,7 +67,7 @@ Run the full assignment:
 bashpython main.py
 To run specific tasks, modify the main() function in main.py to comment out unwanted tasks:
 pythondef main():
-    task_1()  # Neural Networks with scikit-learn
+    # task_1()  # Neural Networks with scikit-learn
     task_2()    # Neural Networks From Scratch
     task_3()    # Binary Classification
 Implementation Details
@@ -99,4 +98,4 @@ The neural networks achieve approximately 85-90% accuracy on the test set for th
 Binary Classification
 For the binary classification task (distinguishing between "No tumor" and "Glioma"), the models achieve approximately 90% accuracy.
 Author
-[Muhammad Saim Akram] - Student at TU Graz, Summer Term 2025
+[Muhammad saim Akram] - Student at TU Graz, Summer Term 2025
